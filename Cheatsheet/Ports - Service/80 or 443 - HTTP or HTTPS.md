@@ -95,7 +95,7 @@ ffuf -x socks5://localhost:1080 -u http://<target_IP>/login -X POST -w <wordlist
 ffuf -x socks5://localhost:1080 -u http://<target_IP>/login -X POST -w /usr/share/seclists/Passwords/2020-200_most_used_passwords.txt -d "Username=admin&Password=FUZZ&RememberMe=true" -fw 6719
 ```
 
-- 補足：CSRFトークン付きのフォームをブルートフォースするときは、🔗[patator - github](https://github.com/lanjelot/patator)を使う
+- 補足：CSRFトークン付きのフォームをブルートフォースするときは、[🥔Patator](../../Tools/🥔Patator.md)を使う（公式：https://github.com/lanjelot/patator）
 
 ---
 
